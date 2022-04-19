@@ -35,6 +35,7 @@ h1 {
 }
 
 .btn-primary {
+    font-size: 30px;
     font-family: 'Changa One', cursive;
     background-color: #FA97C2 !important;
 }
@@ -64,44 +65,31 @@ h1 {
     }
 }
 
-p, label{
-    color: black;
-}
-
-.email{
-    border-radius: 0%;
-    margin: 5px 20px;
-    border: 0;
-}
-
-.labelEmail{
-    margin: 0 20px;
-}
-
-.content-form{
-    text-align: center;
-}
-
 #AboutUs {
-    color: #FFFFFF;
     background-color: #FA97C2;
-    padding: 10% 10%;
 }
 
 #signup {
+    border: 2px;
     border-style: dotted;
-    border-radius: 7%;
+    border-radius: 15px;
     border-color: black;
-    padding: 10px;
-}
-
-.btn-submit {
-    background-color: black !important;
-    display: flex;
-    justify-content: flex-end;
-    font-family: 'Changa One', cursive;
 }
 
 .btn2 {
-    color: #2FA0D5;
+    color: #42b0df;
+}
+
+#btn-sign-up{
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 30px;
+    padding: 0 8%;
+}
+
+#email{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
 }
