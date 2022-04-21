@@ -80,7 +80,7 @@ h1 {
     color: #42b0df;
 }
 
-#btn-sign-up{
+#btn-sign-up {
     font-family: 'Changa One', cursive;
     font-weight: 400;
     border-radius: 15px;
@@ -88,8 +88,46 @@ h1 {
     padding: 0 8%;
 }
 
-#email{
+#email {
     width: 100%;
     height: 30px;
     border-radius: 5px;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.date-col,
+.accumsan-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-box {
+    background-color: #73C926;
+    border-radius: 10%;
+}
+
+#footer {
+    background-image: url('images/bg_footer.gif');
+}
+
+#footer .nav-item {
+    list-style-type: none;
+}
+
+.d-inline-flex {
+    gap: 30px;
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+}
+
+#footer .nav-link {
+    color: gray;
+}
+
+#footer .active {
+    color: #FA97C2;
 }
